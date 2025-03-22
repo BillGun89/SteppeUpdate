@@ -401,6 +401,75 @@
         padding: 40px 20px;
     }
 }
+        /* Fix for tour overview section */
+.tour-overview {
+    padding: 20px;
+}
+
+@media (max-width: 767px) {
+    .tour-overview h2 {
+        font-size: 1.5rem;
+    }
+    
+    .tour-overview p {
+        font-size: 0.95rem;
+    }
+}
+
+/* Fix for day-by-day itinerary */
+.tour-days-container {
+    padding: 20px;
+}
+
+@media (max-width: 767px) {
+    .tour-days-container h2 {
+        font-size: 1.5rem;
+    }
+    
+    .day-slide {
+        gap: 15px;
+    }
+    
+    .day-image {
+        max-height: 250px;
+    }
+    
+    .day-description p {
+        font-size: 0.95rem;
+    }
+    
+    .day-activities li {
+        font-size: 0.95rem;
+        padding-left: 25px;
+    }
+    
+    .day-activities li:before {
+        width: 18px;
+        height: 18px;
+    }
+}
+
+/* Additional fixes for very small screens */
+@media (max-width: 480px) {
+    .tour-detail-container {
+        padding: 30px 15px;
+    }
+    
+    .tour-overview,
+    .tour-days-container {
+        padding: 15px;
+    }
+    
+    .day-btn {
+        padding: 6px 12px;
+        font-size: 0.85rem;
+    }
+    
+    .day-dot {
+        width: 10px;
+        height: 10px;
+    }
+}
     </style>
 </head>
 <body>
